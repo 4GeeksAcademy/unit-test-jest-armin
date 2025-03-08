@@ -22,7 +22,7 @@ function fromEuroToDollar(euro) {
     return euro * conversionEuroDollar;
 
 }
-function fromYenPound(yenes) {
+function fromYenToPound(yenes) {
     const conversionYenPound = 0.87;
     return yenes * conversionYenPound;
 
@@ -31,6 +31,6 @@ function fromYenPound(yenes) {
 
 console.log(fromDollarToYen(20))
 console.log(fromEuroToDollar(20))
-console.log(fromYenPound(20))
+console.log(fromYenToPound(20))
 
-module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYenPound }
+module.exports = { sum, fromDollarToYen, fromEuroToDollar, fromYenToPound }
